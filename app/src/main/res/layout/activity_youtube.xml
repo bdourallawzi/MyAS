@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkoutYoutube">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/youtube_player"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/start_youtube"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/large_margin"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorAccent"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/playvideo"
+        android:textColor="@color/white"
+        android:textSize="@dimen/medium_text" />
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_youtube"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/back" />
+
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">MyAS</string>
+    <string-array name="Exercises">
+        <item>Mobility Exercises</item>
+        <item>Strength Exercises</item>
+        <item>Flexibility Exercises</item>
+        <item>Breathing Exercises</item>
+    </string-array>
+    <string-array name="mobility_exercises">
+        <item>Looking Down</item>
+        <item>Looking Up</item>
+        <item>Chin Tuck</item>
+        <item>Look over Shoulder</item>
+        <item>Trunk Rotation</item>
+        <item>Trunk Side Bend</item>
+        <item>Arm Opening</item>
+        <item>Knee Rolling</item>
+        <item>Alternate Knee to Chest</item>
+        <item>Double Arm Raises above Head</item>
+    </string-array>
+
+    <string-array name="strength_exercises">
+        <item>Bridging</item>
+        <item>Spinal Strengthening</item>
+        <item>Lateral Pull Down</item>
+        <item>Seated Row</item>
+        <item>Bicep Curl</item>
+        <item>Tricep Press</item>
+        <item>Leg Press</item>
+        <item>Pec Dec</item>
+    </string-array>
+
+    <string name="mobility">Mobility Exercises</string>
+    <string name="exercise_name">Exercise Name</string>
+
+    <string name="sensor_placement">Sensor Placement</string>
+    <string name="title_connecting">Connecting</string>
+    <string name="title_reconnect_attempt">Reconnecting</string>
+    <string name="message_wait">Please wait</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_released">Released</string>
+    <string name="text_pressed">Pressed</string>
+    <string name="text_orientation">Orientation</string>
+    <string name="text_connecting">Connecting...</string>
+    <string name="led">LED</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="connect_sensor">Connect Sensor</string>
+    <string name="one_sensor">You need 1 sensor for this exercise. Please clip it on the top of the t-shirt as displayed in the image below.</string>
+
+    <string name="start_position">START POSITION</string>
+    <string name="movement">MOVEMENT/ACTION</string>
+    <string name="rep">REPETITION</string>
+    <string name="exercise_benefit">BENEFIT OF THIS EXERCISE</string>
+    <string name="notes">NOTES</string>
+    <string name="tips">TIPS</string>
+
+    <string name="trunkbend">Trunk Side Bend</string>
+    <string name="trunkbend_start">Kneel upright in neutral spine position, arms resting by side and palms on outer thighs.</string>
+    <string name="trunk_action">Keeping hand in contact with the side of leg, reach down towards the floor. Hold this position for 10 seconds. Return trunk back to start position through the same movement line. </string>
+    <string name="trunk_rep">3 times right then 3 times to the left</string>
+    <string name="trunk_benefit">To help maintain or increase your ability to side bend the waist.</string>
+    <string name="trunk_notes">If dizziness is experiences, discontinue the exercise and see medical review.</string>
+    <string name="trunk_tips_list">
+        <li>Do not allow yourself to bend forwards or backwards during movement.</li>\n
+        <li>Do not allow yourself to rotate/turn your trunk.</li>\n
+        <li>Keep shoulders relaxed.</li>\n
+        <li>Ensure hips and pelvis remain still facing forward.</li>\n
+        <li>Maintain even weight through your knees throughout the movement. Do not allow the opposite knee to lift.</li>\n
+        <li>Ensure slow continuous movement throughout.</li>
+    </string>
+    <string name="instruction_content_description">An image to show how the exercise should be performed.</string>
+    <string name="instruction_button">Start measuring!</string>
+    <string name="start_bend">START WITH RIGHT BEND</string>
+    <string name="retry_exercise">RETRY EXERCISE</string>
+    <string name="goodjob">Good Job! Done with this exercise</string>
+    <string name="leftbendnow">Left Bend Now</string>
+    <string name="startleftin">GOOD JOB! RIGHT SIDE DONE.   Start with left bend in </string>
+    <string name="trunkroatation_start">Kneeling upright, with arms across chest and neutral spine position.</string>
+    <string name="playvideo">Play Video</string>
+    <string name="trunkrotation">Trunk Rotation</string>
+    <string name="trunkrotation_action">Turn/Rotate trunk from the waist as far round as you can. Hold this position for 10 seconds. Return trunk back to start position through the same movement.</string>
+    <string name="trunkrotation_benefit">To help maintain or increase your ability to rotate trunk.</string>
+    <string name="trunk_rotation_tips_list">
+        <li>Keep eyes level - do not  look down to the floor or tip head to ceiling.</li>\n
+        <li>Do not allow yourself to bend forward or backwards during movement.</li>\n
+        <li>Relax shoulders back and down.</li>\n
+        <li>Ensure hips and pelvis remain still, facing forward.</li>\n
+        <li>Maintain even weight through your knees throughout the movement. Do not allow the opposite knee to lift.</li>\n
+        <li>Ensure slow continuous movement throughout.</li>
+    </string>
+    <string name="startrighrotation">START WITH RIGHT ROTATION</string>
+    <string name="_3">3</string>
+    <string name="_15">15</string>
+    <string name="reps_to_go">reps to go</string>
+    <string name="seconds_to_go">seconds to go</string>
+    <string name="startwithrightbend">START WITH RIGHT BEND</string>
+    <string name="done">Done</string>
+    <string name="macaddress">sensor mac address</string>
+    <string name="findid">The sensor ID can be found on the back of the sensor, as in the picture below.</string>
+    <string name="pause">Pause</string>
+    <string name="tryanother">TRY ANOTHER EXERCISE</string>
+    <string name="retry">Retry Exercise</string>
+    <string name="backtohome">BACK TO HOME</string>
+    <string name="resume">RESUME</string>
+    <string name="select_sensor">Select from the sensors below</string>
+    <string name="bridging_tips_list">
+        <li>Maintain neutral spine position throughout movement.</li>\n
+        <li>Use buttocks and spinal muscles to complete movement. Do not push through arms and feet to achieve movements.</li>\n
+        <li>Each action and return should be done slowly and in a controlled way.</li>\n
+    </string>
+    <string name="startbridge">Lie on your back, knees bent up and feet on the floor at hip distnace apart. Arms resting by side, palms down.</string>
+    <string name="action_bridge">Lift buttocks and lower back off the floor into a bridging position. Hold this position for 5 seconds. Return back to start position through the same movement line.</string>
+    <string name="ten_times">10 times</string>
+    <string name="benefit_bridge">To help maintain or increase strength in the buttocks and lower spine.</string>
+    <string name="strength">Strength Exercises</string>
+    <string name="bridge">Bridging</string>
+    <string name="_10">10</string>
+    <string name="middleclip">You need one sensor for this exercise. Please clip it on the middle of the belt as displayed in the image below.</string>
+    <string name="back">BACK</string>
+    <string name="close_popup">close popup</string>
+    <string name="showcount">SHOW COUNT</string>
+    <string name="exercisename">Exercise Name:</string>
+    <string name="totalcountpop">Total Count:</string>
+    <string name="wrongcountpop">Wrong Count:</string>
+    <string name="orientation">The sensor is sensitive to placement and orientation. Make sure the sensor orientation is as displayed with the grey circle on the lower right hand corner.</string>
+</resources>

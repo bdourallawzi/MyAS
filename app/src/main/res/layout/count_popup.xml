@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:id="@+id/exercise_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/large_margin"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/medium_text" />
+
+    <TextView
+        android:id="@+id/total_count"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exercise_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/large_margin"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/medium_text" />
+
+
+    <TextView
+        android:id="@+id/wrongmove1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/total_count"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/large_margin"
+        android:layout_marginEnd="3dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/medium_text" />
+
+
+</RelativeLayout>
